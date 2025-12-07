@@ -1,1 +1,5 @@
 .env
+data
+/src/data/cifar-10-python.tar.gz
+/src/data
+cifar-10-python.tar.gz

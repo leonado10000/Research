@@ -1,0 +1,40 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.2",
+  "startedAt": "2025-11-07T17:13:58.176294Z",
+  "program": "c:\\Users\\rjdis\\OneDrive\\Documents\\GitHub\\research\\eval.py",
+  "codePath": "eval.py",
+  "codePathLocal": "eval.py",
+  "git": {
+    "remote": "https://github.com/leonado10000/research.git",
+    "commit": "820045732ad16f7948c932155e7a3cabd3dbe2f2"
+  },
+  "email": "rahul.tfx@gmail.com",
+  "root": "C:\\Users\\rjdis\\OneDrive\\Documents\\GitHub\\research",
+  "host": "Leo",
+  "executable": "C:\\Users\\rjdis\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "510973177856",
+      "used": "367731564544"
+    }
+  },
+  "memory": {
+    "total": "16473034752"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "memoryTotal": "4294967296",
+      "cudaCores": 2048,
+      "architecture": "Ampere",
+      "uuid": "GPU-e4297789-6045-185a-e6be-c6d570820172"
+    }
+  ],
+  "cudaVersion": "12.9",
+  "writerId": "vofksy7r3y3i05qusei7126g9zhcxk77"
+}

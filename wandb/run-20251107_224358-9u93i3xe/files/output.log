@@ -1,0 +1,5 @@
+Epoch [4/10], Step [500/157], Test Accuracy: 93.39%
+Epoch [7/10], Step [1000/157], Test Accuracy: 93.40%
+Epoch [10/10], Step [1500/157], Test Accuracy: 93.41%
+Total test time: 17.06 seconds
+Test Accuracy: 93.50%
