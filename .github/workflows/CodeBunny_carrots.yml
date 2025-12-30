@@ -1,0 +1,19 @@
+name: '🐰 CodeBunny Agent'
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  dispatch_analysis:
+    name: 🥕 Dispatch to HQ
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📡 Contacting CodeBunny Brain
+        run: |
+          # We send the PR data to the CodeBunny public server
+          curl -X POST "https://codebunny-5o9o.onrender.com/webhook/github" \
+          -H "Content-Type: application/json" \
+          -d '${{ toJSON(github) }}' \
+          --fail \
+          --max-time 600
