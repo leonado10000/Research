@@ -4,3 +4,6 @@ torch==2.9.0
 torchvision==0.24.0
 wandb==0.22.2
 weave==0.52.10
+jupyter
+datasets
+transformers
